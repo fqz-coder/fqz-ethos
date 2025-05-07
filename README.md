@@ -1,54 +1,58 @@
-# FQZ ETHOS — Single Page App
+# FQZ ETHOS — Run Your Path 🏃‍♂️🌌
 
-✨ **Run Your Path** — Site officiel du projet FQZ Ethos, une marque mentale orientée outdoor, dépassement de soi et philosophie du mouvement.
-
----
-
-## 🚀 Aperçu
-
-- Design moderne inspiré d'Apple, Salomon, On Running
-- React + Framer Motion pour les animations fluides
-- Navigation type SPA (Single Page Application)
-- Thème clair/sombre dynamique 🌗
-- Section Contact, responsive & print-ready
+**FQZ ETHOS** est plus qu’une marque. C’est une boussole intérieure pour les esprits libres, les nocturnes, les traceurs de lignes.  
+Un manifeste en mouvement pour celles et ceux qui préfèrent le silence de la montagne aux projecteurs de la ville.
 
 ---
 
-## 📦 Installation locale
+## 🎯 Vision
 
-1. Cloner le projet ou extraire le `.zip`
-2. Depuis le dossier du projet :
+Créer une identité visuelle et mentale pour une communauté d’humains en quête de sens, de résistance, et de verticalité.  
+FQZ = **Fracture / Quête / Zone**.  
+ETHOS = **Discipline / Caractère / Ancrage**.
+
+---
+
+## 🚀 Aperçu du site
+
+- SPA React animée avec **Framer Motion**
+- 🎨 Thème sombre/clair dynamique
+- 📱 Design responsive, prêt à l’impression textile
+- 🧭 Sections : Hero / Manifeste / Valeurs / Actus
+- ⚡ Code propre et déployé via GitHub Pages
+
+---
+
+## 📦 Utilisation en local
 
 ```bash
+git clone https://github.com/fqz-coder/fqz-ethos.git
+cd fqz-ethos
 npm install
 npm start
 ```
 
-Le site sera disponible sur `http://localhost:3000`
+Accessible sur : [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌍 Déploiement sur GitHub Pages
-
-1. Modifie `homepage` dans `package.json` si nécessaire
-2. Assure-toi d'avoir un dépôt GitHub initialisé
-3. Exécute :
+## 🌍 Déploiement GitHub Pages
 
 ```bash
 npm run deploy
 ```
 
-Le site sera automatiquement publié sur :
-[https://fqz-coder.github.io/fqz-ethos](https://fqz-coder.github.io/fqz-ethos)
+Le site est ensuite disponible ici :  
+🔗 [https://fqz-coder.github.io/fqz-ethos](https://fqz-coder.github.io/fqz-ethos)
 
 ---
 
-## 📁 Structure
+## 📂 Structure
 
 ```
-fqz-ethos-react/
+fqz-ethos/
 ├── public/
-│   └── index.html
+│   └── index.html + logo
 ├── src/
 │   ├── index.js
 │   ├── index.css
@@ -59,11 +63,18 @@ fqz-ethos-react/
 
 ---
 
-## 📬 Contact
+## 🛠️ Roadmap 2025
 
-Pour toute suggestion ou collaboration :  
-✉️ [contact@fqzethos.com](mailto:contact@fqzethos.com)
+- [ ] Ajout de la section Produits / Lookbook
+- [ ] Intégration d’un blog d’expédition
+- [ ] Activation d’une newsletter FQZ Signal
+- [ ] Événements trail IRL
 
 ---
+
+## 📬 Contact
+
+📧 Pour toute question ou collaboration :  
+[contact@fqzethos.com](mailto:fake-contact@fqzethos.com)
 
 © 2025 — **fqz-coder**

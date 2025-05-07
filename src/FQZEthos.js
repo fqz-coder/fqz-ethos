@@ -10,7 +10,6 @@ export default function FQZEthos() {
   }, [controls]);
 
   const toggleTheme = () => setIsDark(!isDark);
-
   const bgClass = isDark ? "bg-black text-white" : "bg-white text-black";
   const accentText = isDark ? "text-cyan-300" : "text-blue-700";
   const sectionBg = isDark ? "bg-[#0F1E2F]" : "bg-gray-100";
@@ -20,10 +19,9 @@ export default function FQZEthos() {
       <header className={`fixed top-0 left-0 w-full z-50 shadow-lg p-4 flex justify-between items-center px-6 ${isDark ? "bg-black/80" : "bg-white/90"}`}>
         <div className="space-x-4">
           <a href="#hero" className={`font-bold text-xl ${accentText}`}>FQZ</a>
-          <a href="#origines" className="hover:underline">Origine</a>
-          <a href="#ethos" className="hover:underline">Ethos</a>
-          <a href="#visuel" className="hover:underline">Visuel</a>
-          <a href="#philosophie" className="hover:underline">Philosophie</a>
+          <a href="#manifeste" className="hover:underline">Manifeste</a>
+          <a href="#valeurs" className="hover:underline">Valeurs</a>
+          <a href="#actus" className="hover:underline">Actus</a>
         </div>
         <button
           onClick={toggleTheme}
@@ -57,46 +55,33 @@ export default function FQZEthos() {
         </motion.p>
       </section>
 
-      <section id="origines" className={`py-20 px-6 ${sectionBg}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Origine du nom FQZ</h2>
-        <ul className="text-lg max-w-3xl mx-auto space-y-3">
-          <li><strong>F</strong> = Feel / Force / Fracture — l'émotion brute, la force mentale, la faille intérieure</li>
-          <li><strong>Q</strong> = Quest / Question / Quête — la recherche de sens, d’altitude, de vérité</li>
-          <li><strong>Z</strong> = Zone / Zénith / Zéro — l’état de flow, la zone de performance, le recommencement perpétuel</li>
+      <section id="manifeste" className={`py-20 px-6 ${sectionBg}`}>
+        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Manifeste</h2>
+        <p className="text-lg max-w-3xl mx-auto">
+          FQZ ETHOS est né de la faille. C’est le cri silencieux de celles et ceux qui avancent quand personne ne regarde. Pas une marque. Un état d’esprit. Courir dans la nuit, grimper en soi, tracer sa ligne. FQZ, c’est la fracture qu’on ne cache pas. ETHOS, c’est la force qu’on y met.
+        </p>
+      </section>
+
+      <section id="valeurs" className={`py-20 px-6 ${bgClass}`}>
+        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Nos valeurs</h2>
+        <ul className="text-lg max-w-3xl mx-auto space-y-4">
+          <li>🎯 Discipline mentale et résilience physique</li>
+          <li>🌌 Solitude choisie et mouvement sincère</li>
+          <li>🧭 Liberté, altitude, conscience</li>
+          <li>🛠️ Sobriété, autonomie, engagement</li>
         </ul>
       </section>
 
-      <section id="ethos" className={`py-20 px-6 ${bgClass}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>ETHOS</h2>
+      <section id="actus" className={`py-20 px-6 ${sectionBg}`}>
+        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Actus</h2>
         <p className="text-lg max-w-3xl mx-auto">
-          ETHOS représente la philosophie, la discipline, l’identité intérieure. Ce mot grec désigne l’ensemble des valeurs, des principes et du caractère d’un individu ou d’un collectif. Ici, il incarne la culture de dépassement, d’humilité, de silence et d’ancrage dans le réel.
-        </p>
-      </section>
-
-      <section id="visuel" className={`py-20 px-6 ${sectionBg}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Concept visuel</h2>
-        <p className="text-lg max-w-3xl mx-auto">
-          Le logo représente une montagne fracturée — la ligne de fracture. C’est la faille qu’on traverse, celle qui révèle notre résilience. La typographie moderne et la palette Nocturne Digital évoquent un esprit trail à la fois technique et introspectif. Chaque ligne symbolise une étape, une chute, une montée. C’est une carte mentale du corps en mouvement.
-        </p>
-      </section>
-
-      <section id="philosophie" className={`py-20 px-6 ${bgClass}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Applications & Philosophie</h2>
-        <p className="text-lg max-w-3xl mx-auto">
-          Ce logo est pensé pour être porté, vécu, imprimé. Sur une casquette, un t-shirt, un sticker ou dans une app, il reste lisible, puissant, universel. FQZ ETHOS, c’est une marque mentale : pas un logo commercial, mais une boussole personnelle.
-        </p>
-      </section>
-
-      <section id="contact" className={`py-20 px-6 ${sectionBg}`}>
-        <h2 className={`text-3xl font-bold mb-4 ${accentText}`}>Contact</h2>
-        <p className="text-lg max-w-xl mx-auto text-center">
-          Pour collaborer, discuter ou soutenir le projet :<br />
-          <a href="mailto:contact@fqzethos.com" className="underline text-cyan-400">contact@fqzethos.com</a>
+          🚧 Des prototypes textiles sont en cours. Premiers visuels à venir.  
+          <br/>📍Suivez les futurs tests trail, workshops et activations locales dès l’automne 2025.
         </p>
       </section>
 
       <footer className="py-10 text-center text-sm text-gray-500">
-        © 2025 — fqz-coder — Hébergé via GitHub Pages
+        © 2025 — fqz-coder — Contact : <a href="mailto:contact@fqzethos.com" className="underline">fake-contact@fqzethos.com</a>
       </footer>
     </main>
   );
