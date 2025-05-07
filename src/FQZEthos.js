@@ -99,7 +99,11 @@ export default function FQZEthos() {
 
       <footer className="text-center text-sm text-gray-400 py-10 px-6">
         © 2025 — fqz-coder • contact@fqzethos.com
-      </footer>
+      
+      <div className="text-center text-xs text-gray-500 py-2">
+        Version : FQZ ETHOS v1.0.1
+      </div>
+    </footer>
     </main>
   );
 }
