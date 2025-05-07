@@ -22,10 +22,7 @@ export default function FQZEthos() {
     {
       id: "actus",
       title: "Actualités",
-      content: "📍 2025 — Lancement de la ligne textile en test terrain.
-🧭 Développement du manifeste imprimé.
-🏃‍♂️ Participation à des événements outdoor confidentiels.
-🧢 Prototypes de casquettes et vestes en édition minimale.",
+      content: "📍 2025 — Lancement de la ligne textile en test terrain.\n🧭 Développement du manifeste imprimé.\n🏃‍♂️ Participation à des événements outdoor confidentiels.\n🧢 Prototypes de casquettes et vestes en édition minimale."
     }
   ];
 
