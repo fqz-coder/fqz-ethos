@@ -41,10 +41,51 @@ export default function FQZEthos() {
 
       <section id="hero" className="min-h-screen pt-32 pb-12 px-6 flex flex-col items-center justify-center text-center bg-cover bg-center"
         style={{ backgroundImage: 'url("FQZ_Ethos_Nocturne_PrintReady.png")', backgroundBlendMode: "multiply", backgroundColor: "#0a0f2c" }}>
-        <motion.div initial={{ opacity: 0, y: -20 }} animate={controls}>
-          <h1 className="text-5xl font-extrabold tracking-widest text-white mb-4 drop-shadow-lg">FQZ ETHOS</h1>
-          <p className="text-cyan-300 text-lg max-w-xl mx-auto">Run Your Path. Marche ton chemin, trace ta ligne, dépasse-toi.</p>
+        <motion.div
+          className="space-y-3 mb-10"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {},
+            visible: {
+              transition: {
+                staggerChildren: 0.7
+              }
+            }
+          }}
+        >
+          {[
+            "Ce n’est pas une marque.",
+            "C’est un état d’esprit.",
+            "Un tracé invisible, une fracture choisie."
+          ].map((line, index) => (
+            <motion.p
+              key={index}
+              className="text-xl sm:text-2xl text-white font-light"
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { opacity: 1, y: 0 }
+              }}
+            >
+              {line}
+            </motion.p>
+          ))}
         </motion.div>
+
+        <motion.h1
+          className="text-5xl font-extrabold tracking-widest text-white mb-4 drop-shadow-lg"
+          initial={{ opacity: 0, y: 20 }}
+          animate={controls}
+        >
+          FQZ ETHOS
+        </motion.h1>
+        <motion.p
+          className="text-cyan-300 text-lg max-w-xl mx-auto"
+          initial={{ opacity: 0, y: 20 }}
+          animate={controls}
+        >
+          Run Your Path. Marche ton chemin, trace ta ligne, dépasse-toi.
+        </motion.p>
       </section>
 
       {sections.map(({ id, title, content }) => (
