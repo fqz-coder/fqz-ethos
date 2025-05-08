@@ -77,7 +77,7 @@ export default function FQZEthos() {
 
       <footer className="text-center text-sm text-gray-500 py-10 px-6">
         © 2025 — fqz-coder • contact@fqzethos.com
-        <div className="text-xs text-gray-600 mt-1">Version FQZ ETHOS v1.1.0</div>
+        <div className="text-xs text-gray-600 mt-1">Version FQZ ETHOS v1.1.1</div>
       </footer>
     </main>
   );
