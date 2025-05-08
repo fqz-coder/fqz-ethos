@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fqz-ethos/static/css/main.2b620c53.css",
-    "main.js": "/fqz-ethos/static/js/main.a4c03764.js",
+    "main.js": "/fqz-ethos/static/js/main.2bdd44a7.js",
     "index.html": "/fqz-ethos/index.html",
     "main.2b620c53.css.map": "/fqz-ethos/static/css/main.2b620c53.css.map",
-    "main.a4c03764.js.map": "/fqz-ethos/static/js/main.a4c03764.js.map"
+    "main.2bdd44a7.js.map": "/fqz-ethos/static/js/main.2bdd44a7.js.map"
   },
   "entrypoints": [
     "static/css/main.2b620c53.css",
-    "static/js/main.a4c03764.js"
+    "static/js/main.2bdd44a7.js"
   ]
 }
