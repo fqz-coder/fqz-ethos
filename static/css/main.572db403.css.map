@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.572db403.css","mappings":"AAAA,KAGE,wBAAyB,CACzB,QAAS,CAHT,SAAU,CACV,kCAGF,CACA,YACE,SACF","sources":["index.css"],"sourcesContent":["body {\n  opacity: 0;\n  transition: opacity 0.4s ease-in-out;\n  background-color: #0a0f2c;\n  margin: 0;\n}\nbody.loaded {\n  opacity: 1;\n}"],"names":[],"sourceRoot":""}
