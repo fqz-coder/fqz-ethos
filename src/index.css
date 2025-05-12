@@ -1,6 +1,9 @@
 body {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background-color: #0a0f2c;
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: black;
-  color: white;
+}
+body.loaded {
+  opacity: 1;
 }
